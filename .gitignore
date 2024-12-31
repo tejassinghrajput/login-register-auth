@@ -1,0 +1,45 @@
+# Ignore the environment configuration files
+.env
+.env.*.php
+
+# Ignore Composer's vendor directory
+/vendor/
+
+# Ignore IDE or text editor settings
+/.vscode/
+/.idea/
+/.project/
+/*.sublime-workspace
+/*.sublime-project
+
+# Ignore logs and caches
+/application/cache/
+/application/logs/
+/system/cache/
+/system/logs/
+/writable/cache/
+/writable/logs/
+
+# Ignore temporary files and directories
+*.bak
+*.swp
+*~
+/tmp/
+
+# Ignore node_modules if you're using Node.js
+/node_modules/
+
+# Ignore public uploads if you're storing files in the uploads directory
+/public/uploads/
+
+# Ignore database dump files
+*.sql
+
+# Ignore PHPStorm/JetBrains config files
+/.idea/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
